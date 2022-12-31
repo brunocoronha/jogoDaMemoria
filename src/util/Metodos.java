@@ -1,17 +1,12 @@
 package util;
 
 import entities.Score;
-import entities.Tabela;
-
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
 public class Metodos {
 
-    private int size; //quantidade de elentos por linha (somente valores pares)
+    //private int size; //quantidade de elentos por linha (somente valores pares)
     boolean temEscolhido = false;
     Score score;
     JLabel ptsJogador1;
@@ -22,7 +17,7 @@ public class Metodos {
     public Metodos(int size) {
         //construtor
         score = new Score();
-        this.size = size;
+        //this.size = size;
     }
 
     public void criaTela(JFrame tela, int size) {
